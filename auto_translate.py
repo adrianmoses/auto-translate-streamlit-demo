@@ -84,7 +84,7 @@ def translate_to_english(model, tokenizer, text):
         print(f"Language {src_lang} not found")
         return
 
-st.title("Auto Translate")
+st.title("Auto Translate (To English)")
 
 
 text = st.text_input(f"Write in any (1 of {len(data.keys())}) language")
@@ -93,7 +93,7 @@ st.text("What you wrote: ")
 
 st.write(text)
 
-st.text("Translation: ")
+st.text("English Translation: ")
 
 if text:
     model, tokenizer = load_model()
