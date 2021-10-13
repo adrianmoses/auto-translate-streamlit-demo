@@ -1,0 +1,7 @@
+streamlit
+torch
+transformers
+transformers[sentencepiece]
+spacy
+pycld2
+langdetect
